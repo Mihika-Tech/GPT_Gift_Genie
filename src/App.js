@@ -6,13 +6,13 @@ import { buildPrompt } from './utils/promptBuilder';
 import { generatedGiftIdeas } from './api';
 
 const toneBackgrounds = {
-  sentimental: 'assets/sentimental.jpeg',
-  funny: 'assets/funny.jpeg',
-  formal: 'assets/formal.jpeg',
-  wholesome: 'assets/wholesome.jpeg',
-  romantic: 'assets/romantic.jpeg',
-  quirky: 'assets/quirky.jpeg',
-  inspirational: 'assets/inspirational.jpeg',
+  sentimental: `${process.env.PUBLIC_URL}/assets/sentimental.jpeg`,
+  funny: `${process.env.PUBLIC_URL}/assets/funny.jpeg`,
+  formal: `${process.env.PUBLIC_URL}/assets/formal.jpeg`,
+  wholesome: `${process.env.PUBLIC_URL}/assets/wholesome.jpeg`,
+  romantic: `${process.env.PUBLIC_URL}/assets/romantic.jpeg`,
+  quirky: `${process.env.PUBLIC_URL}/assets/quirky.jpeg`,
+  inspirational: `${process.env.PUBLIC_URL}/assets/inspirational.jpeg`,
 };
 
 function App() {
