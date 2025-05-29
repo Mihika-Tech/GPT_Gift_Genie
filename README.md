@@ -2,7 +2,7 @@
 
 AI-powered gift suggestion web app that recommends personalized gifts based on the recipient’s age, interests, relationship, and tone. Built with React and powered by Cohere’s LLM API.
 
-[![Live Demo](https://mihika-tech.github.io/GPT_Gift_Genie/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://mihika-tech.github.io/GPT_Gift_Genie/)
 
 
 
@@ -16,10 +16,16 @@ AI-powered gift suggestion web app that recommends personalized gifts based on t
 
 
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-![App Screenshot](./public/assets/screenshot.png) <!-- Replace with actual image path -->
 
+![Screenshot 2025-05-28 234818](https://github.com/user-attachments/assets/f1bbae26-5f1c-446a-8ad1-394d3d170437)
+
+![Screenshot 2025-05-28 234851](https://github.com/user-attachments/assets/6f4afcf9-9b47-44d9-9170-5a55b0442207)
+
+![Screenshot 2025-05-28 234928](https://github.com/user-attachments/assets/02822459-8ffc-4e8d-8dd6-96eaf447bfa4)
+
+![Screenshot 2025-05-28 235017](https://github.com/user-attachments/assets/78e10490-cdfa-4347-aff7-6eae88a59c0d)
 
 
 ## 🛠️ Tech Stack
