@@ -16,7 +16,7 @@ AI-powered gift suggestion web app that recommends personalized gifts based on t
 
 
 
-## 📸 Screenshot
+## 📸 Screenshots
 
 
 ![Screenshot 2025-05-28 234818](https://github.com/user-attachments/assets/f1bbae26-5f1c-446a-8ad1-394d3d170437)
