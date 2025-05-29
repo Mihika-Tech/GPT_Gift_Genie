@@ -1,38 +1,122 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-image 0.5s ease-in-out;
+  padding-bottom: 5rem;
+  /* overflow-x: hidden; */
+}
+
+.bg-sentimental {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.bg-funny {
+  font-family: 'Fredoka', cursive;
+}
+
+.bg-formal {
+  font-family: 'Lato', sans-serif;
+}
+
+.bg-wholesome {
+  font-family: 'Nunito', sans-serif;
+}
+
+.bg-romantic {
+  font-family: 'Playfair Display', serif;
+}
+
+.bg-quirky {
+  font-family: 'Patrick Hand', cursive;
+}
+
+.bg-inspirational {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app-container {
+  padding: 2rem;
+  max-width: 700px;
+  margin: 3rem auto 5rem auto; /* add bottom margin */
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.4s ease;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+h1 {
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Tone Themes */
+.tone-sentimental { background-color: rgba(255, 245, 247, 0.85); }
+.tone-funny       { background-color: rgba(255, 255, 235, 0.85); }
+.tone-formal      { background-color: rgba(245, 245, 245, 0.92); }
+.tone-wholesome   { background-color: rgba(230, 255, 240, 0.85) }
+.tone-romantic    { background-color: rgba(255, 230, 235, 0.85); }
+.tone-quirky      { background-color: rgba(255, 245, 235, 0.9); }
+.tone-inspirational { background-color: rgba(240, 255, 255, 0.9); }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* input[type="text"] {
+  padding: 0.7rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  background-color: #fff;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  background-color: #333;
   color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #555;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input, select, textarea {
+  width: 100%;
+  margin-top: 0.7rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: border 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  border: 1px solid #999;
+  outline: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
