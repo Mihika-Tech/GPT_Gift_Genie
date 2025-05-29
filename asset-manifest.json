@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GPT_Gift_Genie/static/css/main.37a2f816.css",
+    "main.js": "/GPT_Gift_Genie/static/js/main.859b2812.js",
+    "index.html": "/GPT_Gift_Genie/index.html",
+    "main.37a2f816.css.map": "/GPT_Gift_Genie/static/css/main.37a2f816.css.map",
+    "main.859b2812.js.map": "/GPT_Gift_Genie/static/js/main.859b2812.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37a2f816.css",
+    "static/js/main.859b2812.js"
+  ]
+}
